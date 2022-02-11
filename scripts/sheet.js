@@ -38,7 +38,7 @@ Hooks.once('init', async function() {
         items: [],
         canCreate: true,
         hasActions: true,
-        dataset: { type: "feat", "type-name": game.i18n.localize("SpheresSheet.FeatTypeMagicalent"), "feat-type": "magicTalent" },
+        dataset: { type: "feat", "type-name": game.i18n.localize("SpheresSheet.FeatTypeMagicTalent"), "feat-type": "magicTalent" },
       },`);
 
   injectIntoClass(ItemSheetPF, '_getItemProperties', 'props.push(labels.featType);\n',
