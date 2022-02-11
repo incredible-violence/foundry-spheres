@@ -1,0 +1,58 @@
+{
+  "name": "foundry-spheres",
+  "title": "Spheres of Power",
+  "description": "A continuation of Xavion3's Spheres of Might module, converted to Spheres of Power",
+  "author": "incredible-violence",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.4",
+  "manifest": "https://raw.githubusercontent.com/incredible-violence/foundry-spheres/main/module.json",
+  "url": "https://github.com/incredible-violence/foundry-spheres",
+  "download": "https://github.com/Xavion3/spheres-sheet/releases/download/0.9.1/spheres-sheet.zip",
+  "systems": ["pf1"],
+  "esmodules": ["./scripts/sheet.js"],
+  "styles": ["./css/spheres.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "magic-talents",
+      "label": "Magic Talents",
+      "system": "pf1",
+      "path": "./packs/magic-talents.db",
+      "entity": "Item"
+    },
+    {
+      "name": "sop-feats",
+      "label": "Spheres of Power Feats",
+      "system": "pf1",
+      "path": "./packs/sop-feats.db",
+      "entity": "Item"
+    },
+    {
+      "name": "sop-items",
+      "label": "Spheres of Power Items",
+      "system": "pf1",
+      "path": "./packs/sop-items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "sop-classes",
+      "label": "Spheres of Power Classes",
+      "system": "pf1",
+      "path": "./packs/sop-classes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "sop-class-abilities",
+      "label": "Spheres of Power Class Features",
+      "system": "pf1",
+      "path": "./packs/sop-class-abilities.db",
+      "entity": "Item"
+    }
+  ]
+}
