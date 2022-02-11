@@ -2,7 +2,7 @@
 export const SpheresSheet = {};
 
 /**
- * The set of Combat Spheres
+ * The set of Magic Spheres
  * @type {Object}
  */
 SpheresSheet.magicSpheres = {
