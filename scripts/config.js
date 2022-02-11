@@ -7,6 +7,7 @@ export const SpheresSheet = {};
  */
 SpheresSheet.combatSpheres = {
   alchemy: "SpheresSheet.SphereAlchemy",
+  alteration: "SpheresSheet.SphereAlteration",
   athletics: "SpheresSheet.SphereAthletics",
   barrage: "SpheresSheet.SphereBarrage",
   barroom: "SpheresSheet.SphereBarroom",
@@ -31,5 +32,4 @@ SpheresSheet.combatSpheres = {
   trap: "SpheresSheet.SphereTrap",
   warleader: "SpheresSheet.SphereWarleader",
   wrestling: "SpheresSheet.SphereWrestling",
-  alteration: "SpheresSheet.SphereAlteration",
 }
