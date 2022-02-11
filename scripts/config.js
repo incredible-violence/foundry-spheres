@@ -31,4 +31,5 @@ SpheresSheet.combatSpheres = {
   trap: "SpheresSheet.SphereTrap",
   warleader: "SpheresSheet.SphereWarleader",
   wrestling: "SpheresSheet.SphereWrestling",
+  alteration: "SpheresSheet.SphereAlteration",
 }
